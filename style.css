@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* A */
+
+/* B */
+
+body {
+   background-color: rgb(151, 151, 151);
+}
+
+/* C */
+
+/* D */
+
+/* E */
+
+/* F */
+
+/* G */
+
+#inputGanhou {
+   display: inline;
+   width: 210px;
+   height: 24px;
+}
+
+#inputNormal {
+   width: 210px;
+   height: 24px;
+}
+
+.displayNone {
+   display: none;
+}
+
+/* H */
+
+header {
+   background-color: rgb(0, 50, 189);
+   text-align: center;
+   padding-top: 2px;
+   padding-bottom: 4px;
+   margin-bottom: 0.5%;
+}
+
+h1 {
+   font-size: 2vw;
+   color: white;
+}
+
+/* I */
+
+/* J */
+
+/* K */
+
+/* L */
+
+/* M */
+
+/* N */
+
+/* O */
+
+/* P */
+
+/* Q */
+
+/* R */
+
+/* S */
+
+section {
+   text-align: center;
+}
+
+/* T */
+
+#tableMostrar {
+   display: table;
+   background-color: rgb(255, 255, 255);
+   width: 215px;
+   height: 205px;
+   margin: auto;
+   margin-bottom: 4px;
+   table-layout: none;
+}
+
+td {
+   background-color: rgb(26, 26, 26);
+   border: 2px white solid;
+   color: white;
+   vertical-align: middle;
+   font-size: 30px;
+   width: 100px;
+   height: 30px;
+}
+
+td:hover {
+   background-color: black;
+}
+
+/* U */
+
+/* V */
+
+/* W */
+
+/* X */
+
+/* Y */
+
+/* Z */
+
+@media (max-width: 412px) {
+
+   header {
+      padding-top: 4px;
+      padding-bottom: 8px;
+      margin-bottom: 1.6%;
+   }
+   
+   h1 {
+      font-size: 6vw;
+      color: white;
+   }
+   
+   #inputGanhou {
+   	font-size: 4.5vw;
+   	width: 210px;
+   	height: 24px;
+	}
+
+   
+   #tableMostrar {
+      width: 215px;
+      height: 205px;
+   }
+}
