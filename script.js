@@ -50,11 +50,7 @@ function verificar (quemGanhou, inparte) { // essa função é para verificar se
    [6] [7] [8]
 
    */
-
-   if (inparte == 9) {
-      alert("inparte!")
-      input.id = "inputGanhou"
-   }
+  var ganhou = false
 
    if (quemGanhou == 1) {
 
@@ -75,6 +71,7 @@ function verificar (quemGanhou, inparte) { // essa função é para verificar se
          
          input.id = "inputGanhou"
          comecDeNovo = true
+         ganhou = true
       }
    } else {
       if (
@@ -94,7 +91,14 @@ function verificar (quemGanhou, inparte) { // essa função é para verificar se
 
          input.id = "inputGanhou"
          comecDeNovo = true
+         ganhou = true
       }
+   }
+
+   if (inparte == 9 && ganhou == false) {
+      alert("inparte!")
+      input.id = "inputGanhou"
+      comecDeNovo = true
    }
 }
 
